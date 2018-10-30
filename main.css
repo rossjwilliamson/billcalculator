@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#1941ED;
+}
+
+
+section{
+	width:50%;
+	margin:5rem auto;
+	background-color:#fff;
+
+}
+
+#inner-container{
+	padding:1rem;
+	width:80%;
+	margin:2rem auto;
+
+}
+
+section h1{
+	font-size:2rem;
+	text-align: center;
+	background-color:#000;
+	color:#fff;
+	padding:1rem;
+}
+
+section input,section select{
+	width:100%;
+	border-radius: 5px;
+	border:1px solid #000;
+	padding:.4rem;
+	margin-top:1rem;
+}
+
+section p:not(:first-child){
+	margin-top:1rem;
+}
+
+section p{
+	font-size:1.2rem;
+}
+
+section button{
+	font-size:1.2rem;
+	padding:.5rem;
+	border-radius: 5px;
+	background-color:#000;
+	color:#fff;
+	margin-top:1rem;
+}
