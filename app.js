@@ -30,7 +30,7 @@ if(billAmount!="" && calculateTotal!=""){
 let total = billAmount / calculateTotal;
 
 
-billOutput.innerHTML = `you need to tip £${total.toFixed(2)} each`;
+billOutput.innerHTML = `you need to pay £${total.toFixed(2)} each`;
 
 }else{
 	swal("OOPS","Please enter a number above 0 cheers","error");
